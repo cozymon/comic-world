@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { fetchMangaTrends } from '@/app/lib/anilist';
+import { fetchMangaTrends } from '../../lib/anilist';
 
 export async function GET() {
   try {
